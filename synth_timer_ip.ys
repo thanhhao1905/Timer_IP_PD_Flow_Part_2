@@ -1,0 +1,26 @@
+# Read RTL
+read_verilog apb_slave.v
+read_verilog reg_module.v
+read_verilog timer_top.v
+
+# Top
+hierarchy -top timer_top
+
+
+# Basic synth
+proc; opt; fsm; opt
+
+
+synth -top timer_top
+
+
+# Map to cells (LIB_FAST phải export trong môi trường)
+dfflibmap -liberty /home/thanhhao/openlane/pdks/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc        -liberty /home/thanhhao/openlane/pdks/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+
+opt_clean
+
+
+write_verilog -noattr timer_top_synth.v
+write_json timer_top.json
