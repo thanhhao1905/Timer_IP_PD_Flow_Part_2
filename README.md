@@ -155,7 +155,7 @@ Before proceeding to "Tape-out" – sending the design for fabrication – a fin
 - **Final result:** A complete Timer IP layout, verified and ready for the **Tape-out** stage – the final step before mass production.
   
 <img width="1851" height="898" alt="image" src="https://github.com/user-attachments/assets/174d9734-c363-436a-b6a3-b120ddeb88f2" />
-
+<img width="1853" height="899" alt="image" src="https://github.com/user-attachments/assets/62c2f633-34c1-4c5b-b909-ed00ab11eea2" />
 
 ## Conclusion
 
