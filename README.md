@@ -153,6 +153,8 @@ Before proceeding to "Tape-out" – sending the design for fabrication – a fin
   - **Detailed layout viewing:** KLayout provides the ability to display different color-coded layers, allowing zooming, panning, and precise measurements on the layout.
   - **Visual inspection:** Engineers can easily identify potential issues such as layer overlaps, insufficient spacing between paths, or connectivity problems.
 - **Final result:** A complete Timer IP layout, verified and ready for the **Tape-out** stage – the final step before mass production.
+  
+<img width="1851" height="898" alt="image" src="https://github.com/user-attachments/assets/174d9734-c363-436a-b6a3-b120ddeb88f2" />
 
 
 ## Conclusion
