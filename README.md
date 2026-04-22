@@ -154,10 +154,6 @@ Before proceeding to "Tape-out" – sending the design for fabrication – a fin
   - **Visual inspection:** Engineers can easily identify potential issues such as layer overlaps, insufficient spacing between paths, or connectivity problems.
 - **Final result:** A complete Timer IP layout, verified and ready for the **Tape-out** stage – the final step before mass production.
 
-<img width="1853" height="893" alt="image" src="https://github.com/user-attachments/assets/79de7bcf-0b28-4481-b695-6932e584298b" />
-
-<img width="1851" height="893" alt="image" src="https://github.com/user-attachments/assets/935dc7d1-43db-42d1-bb00-c63194249ce3" />
-
 
 ## Conclusion
 
